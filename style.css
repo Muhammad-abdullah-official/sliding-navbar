@@ -1,0 +1,36 @@
+body {
+    overflow-x: hidden;
+}
+
+.closebtn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 1s ease;
+    transform: translateX(0%);
+
+}
+
+div button {
+    width: 70px;
+    color: black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 999;
+    width: 50px;
+}
+
+
+div .btn {
+    top: 10px;
+}
+
+
+.closebtn.show {
+    transform: translateX(-75%);
+}
